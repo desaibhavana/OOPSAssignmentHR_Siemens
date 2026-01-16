@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace HRLib
 {
+    //Employee is a base class
     public abstract  class Employee
     {
         private string empName;
