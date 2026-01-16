@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace HRLib
 {
+    //User defined exception class 
    public  class MinimumBasicException : Exception
     {
+        
         public MinimumBasicException(string msg) : base(msg)
         {
 

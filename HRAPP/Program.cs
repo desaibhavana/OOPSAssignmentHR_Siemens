@@ -11,6 +11,9 @@ namespace HRAPP
     {
         static void Main(string[] args)
         {
+            #region GIT Demo
+            Console.WriteLine("Testing Git changes");
+            #endregion
             string ans = "y";
             int choice = 0;
             List<Employee> empList = new List<Employee>();
